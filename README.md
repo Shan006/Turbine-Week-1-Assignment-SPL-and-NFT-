@@ -68,5 +68,6 @@ Uses **@solana/kit** and **mpl-core** via UMI. Images and metadata are stored on
 | `nft_image.ts` | `npm run nft:image` | Uploads your image to Irys, logs the image URI |
 | `nft_metadata.ts` | `npm run nft:metadata` | Builds the metadata JSON and uploads it, logs the metadata URI |
 | `nft_mint.ts` | `npm run nft:mint` | Mints the NFT on-chain using the metadata URI |
+| `nft_metadata_update.ts` | `npm run nft:metadata:update` | Update the NFT's name and metadata as the update authority |
 
 Run them in order. Paste the URI logged by each step into the next script before running it.
